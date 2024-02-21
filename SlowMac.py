@@ -10,19 +10,19 @@ import datetime,os
 import socket,hashlib,shutil
 import json,random,sys, time,re,marshal
 ###################################################
-hits='/sdcard/Hits/𝐒𝐋𝐎𝐖𝐌𝐀𝐂'
+hits='./sdcard/Hits/SLOWMAC'
 import os
 if not os.path.exists(hits):
     os.mkdir(hits)
 ###################################################
-if not os.path.exists('/sdcard/combo'):
-    os.makedirs('/sdcard/combo')
-if not os.path.exists('/sdcard/Hits'):
-    os.makedirs('/sdcard/Hits')
-if not os.path.exists('/sdcard/Proxies'):
-    os.makedirs('/sdcard/Proxies')
-if not os.path.exists('/sdcard/sound'):
-    os.makedirs('/sdcard/sound')
+if not os.path.exists('./sdcard/combo'):
+    os.makedirs('./sdcard/combo')
+if not os.path.exists('./sdcard/Hits'):
+    os.makedirs('./sdcard/Hits')
+if not os.path.exists('./sdcard/Proxies'):
+    os.makedirs('./sdcard/Proxies')
+if not os.path.exists('./sdcard/sound'):
+    os.makedirs('./sdcard/sound')
     
 
 try:
@@ -233,7 +233,7 @@ import os
 nickn=""
 nickn=input("""\33[1;35m{ \33[0m🔹️ \33[1;35m }\33[0m\033[96mDɪɢɪᴛᴇ ᴜᴍ Nɪcᴋ Pᴀʀᴀ Mᴏꜱᴛʀᴀʀ ɴᴏꜱ Hɪᴛs...\n\33[1;35m{ \33[0m🔹️ \33[1;35m }\33[0m\33[96mNɪcᴋ:\33[0m\033[96m """)
 
-hits='/sdcard/Hits/𝐒𝐋𝐎𝐖𝐌𝐀𝐂/'
+hits='./sdcard/Hits/SLOWMAC/'
 if not os.path.exists(hits):
     os.mkdir(hits)
 
@@ -395,7 +395,7 @@ def hea3():
 	}
 	return hea			
 def hitecho(mac,trh):
-	sound="/sdcard/sound/STBMAX5.mp3"
+	sound="./sdcard/sound/STBMAX5.mp3"
 	file = pathlib.Path(sound)
 	try:
 		  if file.exists ():
@@ -842,11 +842,11 @@ def dosyasec():
 	
 	if comboc=="":
 		mesaj="\nMac Combo List, Combo select..!\nSelecione o arquivo com o Mac Combo"
-		dir='/sdcard/combo/'
+		dir='./sdcard/combo/'
 		dsy="\033[96m🔹️0 =  \33[0m\033[96m Random (OTO MAC)  \33[96m\n"
 	else:
 		mesaj="Proxy Combo select..!\nSelecione o combo onde está o proxy"
-		dir='/sdcard/Proxies/'
+		dir='./sdcard/Proxies/'
 	if not os.path.exists(dir):
 	    os.mkdir(dir)
 	for files in os.listdir (dir):
@@ -918,7 +918,7 @@ número de macs = """)
 			quit()
 	if comboc=="":
 		if randommu=="":
-			combodosya=dosya.replace('/sdcard/combo/',"")
+			combodosya=dosya.replace('./sdcard/combo/',"")
 			combodosya=combodosya.replace('.txt',"")
 			comboc=open(dosya, 'r')
 			combototLen=comboc.readlines()
@@ -1144,7 +1144,7 @@ import logging
 requests.packages.urllib3.util.ssl_.DEFAULT_CIPHERS="TLS13-CHACHA20-POLY1305-SHA256:TLS13-AES-128-GCM-SHA256:TLS13-AES-256-GCM-SHA384:ECDHE:!COMP"
 
 ses=requests.Session()
-Dosyab=hits+"🔹️𝐒𝐋𝐎𝐖𝐌𝐀𝐂{"+panel.replace(":","_").replace('/','')+"}#"+str(nickn)+"{ʜɪᴛs}.txt"
+Dosyab=hits+"SLOWMAC{"+panel.replace(":","_").replace('/','')+"}#"+str(nickn)+"{HITS}.txt"
 
 combosay=0
 
