@@ -90,7 +90,7 @@ def a(z):
 		time.sleep(0.001)
 a("""
  
-       🧑‍✈️INDIAN🤹KERALA 🚴MALAYALAM 🐓 
+       🧑‍✈️GROOZAOP🤹 🚴 🐓 
        
      
    \33[96mNão se esqueça de se juntar ao grupo de IPTV no Telegram...!\33[96m
@@ -146,7 +146,7 @@ def echok(mac,bot,total,hitc,oran):
 	echo=("""
           \033[96m[ 🚧 ] \33[0m\33[7;49;96m❪❪❪🔹️"""+nickn+"""🔹️❫❫❫\33[0m\033[96m[ 🚧 ]     \33[96m
           
-╔══════🚧─🔹️INDIAN🥷KERALA 🚀MALAYALAM 💯 🔹️─🚧═══════╗
+╔══════🚧─🔹️ 💯 🔹️─🚧═══════╗
 ║𝙎𝙏𝘼𝙍𝙏𝙏𝙄𝙈𝙀➪ """+hora_ini+"""\33[96m «🔹️» 𝙎𝘾𝘼𝙉🟪➪ """+str(time.strftime('%H:%M:%S'))+"""  \33[96m
 ║𝙐𝙍𝙇➪ """+str(panel)+""" \33[96m
 ║𝗣𝗢𝗥𝗧𝗔𝗟🪖➪ [ """+str(uzmanm)+""" ] \33[96m
@@ -157,7 +157,7 @@ def echok(mac,bot,total,hitc,oran):
 ║𝗖-𝗠𝗔𝗖➪ """+combodosya+""" \33[96m
 ║𝗣𝗥𝗢𝗫𝗬 ♌➪ \33[96m"""+str(proxysay)+""" \33[96m       
 ║𝗖-𝗣𝗥𝗢𝗫𝗬 ➪ """+str(proxyuz)+""" """+str(proxydosya)+"""  \33[96m 
-╚════🎀═https://t.me/MALAYALAMIPTV1_0🤠═════════╝
+╚════🎀═🤠═════════╝
 """)
 
 	print(echo)
@@ -188,8 +188,8 @@ def hityaz(mac,trh,real,m3ulink,m3uimage,durum,vpn,livelist,vodlist,serieslist,p
 			simza="""  """
 				
 		imza="""
-╔═🚧─🔹️🎄INDIAN🐠KERALA 🪂MALAYALAM 🦉 🔹️─🚧═╗
-╠☞ ᴄʀɪᴀᴅᴏʀ:🔊https://t.me/MALAYALAMIPTV1_0🐅
+╔═🚧─🔹️🎄🦉 🔹️─🚧═╗
+╠☞ ᴄʀɪᴀᴅᴏʀ:🔊🐅
 ╠☞ ᴘᴏʀᴛᴀʟ:  http://"""+str(panell)+"""/c/
 ╠☞ sᴇʀᴠᴇʀ:  """+str(reall)+"""
 ╠☞ ᴍᴀᴄ:  """+str(mac)+"""
