@@ -41,7 +41,7 @@ my_os = os.name
 if my_os == "DARWIN":
     rootDir = "/Users/owner/Downloads"
 else:
-    rootDir = "/Users/owner/Downloads"
+    rootDir = "/content"
 dir = rootDir + '/hits/'
 if not os.path.exists(dir):
     os.makedirs(dir)
@@ -153,7 +153,8 @@ HEADERd = {
     "Connection": "Keep-Alive",
     "Accept-Encoding": "gzip, deflate",
     "Accept": "application/json,application/javascript,text/javascript,text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-    "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 4 rev: 2721 Mobile Safari/533.3",
+    #"User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 4 rev: 2721 Mobile Safari/533.3",
+    "User-Agent" : "okhttp/3.10.0",
 }
 
 dsy = filea  #rootDir + '/'+combo+'.txt'
