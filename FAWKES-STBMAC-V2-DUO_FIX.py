@@ -84,7 +84,7 @@ if (my_os == "Windows"):
     my_os="Wɪɴᴅᴏᴡs"
 else:
     rootDir = "/sdcard/"
-    my_os="Aɴᴅʀᴏɪᴅ"
+    my_os="Aɴᴅʀᴏɪᴅ LinuX"
 my_cpu = platform.machine()
 my_py = platform.python_implementation()
 print("\33[1m\33[1;32m        OS in my system : ", my_os+"\33[0m")
@@ -114,8 +114,8 @@ requests.packages.urllib3.util.ssl_.DEFAULT_CIPHERS = "TLS13-CHACHA20-POLY1305-S
 
     
 import os 
-if not os.path.exists(rootDir+'proxy'):
-    os.makedirs(rootDir+'proxy')
+if not os.path.exists(rootDir+'Proxy'):
+    os.makedirs(rootDir+'Proxy')
 
 Green="\033[1;33m"
 Blue="  \33[1m\33[7;49;94m"
@@ -1298,7 +1298,7 @@ def dosyasec():
 		dsy="\n       \33[1;4;94;47m 0=> Random (OTO MAC)  \33[0m\n"
 	else:
 		mesaj="Proxsy Combo select..!\nSelect the combo where it is the proxy"
-		dir=rootDir+'proxy/'
+		dir=rootDir+'Proxy/'
 	if not os.path.exists(dir):
 	    os.mkdir(dir)
 	for files in os.listdir (dir):
