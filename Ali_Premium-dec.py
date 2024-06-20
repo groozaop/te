@@ -2699,19 +2699,19 @@ def onay(veri, user, pas):
 
 
 def yaz(kullanici):
-    sd_hell = open("/sdcard/📂 A_pxl@M3U/HITs_LiSTAs@A_pxl/A_pxl[m3u] \U0001faaa_" + fx + " (U&P).txt", "a+")
+    sd_hell = open("/sdcard/hits/AliPre \U0001faaa_" + fx + " (U&P).txt", "a+")
     sd_hell.write(kullanici)
     sd_hell.close()
 
 
 def yazy(kullanici):
-    sd_hell = open("/sdcard/📂 A_pxl@M3U/A_pxl[m3u] 📥 GERAL_Combo(U&P).txt", "a+")
+    sd_hell = open("/sdcard/hits/AliPre 📥 GERAL_Combo(U&P).txt", "a+")
     sd_hell.write(kullanici)
     sd_hell.close()
 
 
 def yazz(kullanici):
-    sd_hell = open("/sdcard/📂 A_pxl@M3U/COMBOs@U&P/A_pxl[m3u] 📂_" + fx + " (Combo).txt", "a+")
+    sd_hell = open("/sdcard/hits/AliPre 📂_" + fx + " (Combo).txt", "a+")
     sd_hell.write(kullanici)
     sd_hell.close()
 
