@@ -1326,7 +1326,7 @@ matris = Matris(3, 3)
 matris.eleman_ekle(0, 0, 1)
 matris.eleman_ekle(1, 1, 1)
 matris.eleman_ekle(2, 2, 1)
-caminho_pasta_01 = "/storage/emulated/0/📂 A_pxl@M3U"
+caminho_pasta_01 = "/sdcards/hits/AliPre"
 if not os.path.exists(caminho_pasta_01):
     os.makedirs(caminho_pasta_01)
 
@@ -1422,7 +1422,7 @@ matris = Matris(3, 3)
 matris.eleman_ekle(0, 0, 1)
 matris.eleman_ekle(1, 1, 1)
 matris.eleman_ekle(2, 2, 1)
-caminho_pasta_02 = "/storage/emulated/0/📂 A_pxl@M3U/COMBOs@U&P"
+caminho_pasta_02 = "/sdcard/combo/up"
 if not os.path.exists(caminho_pasta_02):
     os.makedirs(caminho_pasta_02)
 else:
@@ -1519,7 +1519,7 @@ else:
     matris.eleman_ekle(0, 0, 1)
     matris.eleman_ekle(1, 1, 1)
     matris.eleman_ekle(2, 2, 1)
-    caminho_pasta_03 = "/storage/emulated/0/📂 A_pxl@M3U/HITs_LiSTAs@A_pxl"
+    caminho_pasta_03 = "/sdcard/hits/AliPre/HITs_LiSTAs@A_pxl"
     if not os.path.exists(caminho_pasta_03):
         os.makedirs(caminho_pasta_03)
 
@@ -2085,7 +2085,7 @@ else:
         matris.eleman_ekle(0, 0, 1)
         matris.eleman_ekle(1, 1, 1)
         matris.eleman_ekle(2, 2, 1)
-        art_ansi = "\n{}\n         \x1b[91m\n  ╔═════════「 🇮🇶 𝐁𝐲 𝐶𝑜𝑛𝑓𝑖𝑔 IQ ════════╗\n  ║    _   _    _   _  _         _     ║\n  ║   /_\\ | |  (_) | || |__ _ __| |__  ║\n  ║  / _ \\| |__| | | __ / _` / _| / /  ║\n  ║ /_/ \\_\\____|_| |_||_\\__,_\\__|_\\_\\  ║\n  ║                                    ║\n  ╚══════════════════════════════╝                                  \n \x1b⠀\x1b[0m\n{}The location where you save your hits:{}\n{}{}/storage/emulated/0/Ali_AlHEDRE@M3U{}\n\n".format(VD, VD, VD, VD, VD, VD, VDC, VDC, VDC, VDC, VDC, RST, VC, RST, VDC, my_os, RST, NEGRITO, RESET, NEGRITO, AC, RESET)
+        art_ansi = "\n{}\n         \x1b[91m\n  ╔═════════「 🇮🇶 𝐁𝐲 𝐶𝑜𝑛𝑓𝑖𝑔 IQ ════════╗\n  ║    _   _    _   _  _         _     ║\n  ║   /_\\ | |  (_) | || |__ _ __| |__  ║\n  ║  / _ \\| |__| | | __ / _` / _| / /  ║\n  ║ /_/ \\_\\____|_| |_||_\\__,_\\__|_\\_\\  ║\n  ║                                    ║\n  ╚══════════════════════════════╝                                  \n \x1b⠀\x1b[0m\n{}The location where you save your hits:{}\n{}{}/sdcard/hits/AliPre{}\n\n".format(VD, VD, VD, VD, VD, VD, VDC, VDC, VDC, VDC, VDC, RST, VC, RST, VDC, my_os, RST, NEGRITO, RESET, NEGRITO, AC, RESET)
         for art_ansi in art_ansi:
             for c in art_ansi:
                 print(c, end="", flush=True)
@@ -2454,7 +2454,7 @@ def calcular_tempo_processamento(quantidade_linhas, quantidade_bots):
     return layout_tempo
 
 
-diretorio = "/storage/emulated/0/combo"
+diretorio = "/sdcard/combo"
 nome_arquivo = lista + ".txt"
 quantidade_bots = botsay
 quantidade_linhas = contar_linhas_arquivo(diretorio, nome_arquivo)
