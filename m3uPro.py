@@ -21,7 +21,7 @@ requests.packages.urllib3.util.ssl_.DEFAULT_CIPHERS="TLS_AES_128_GCM_SHA256:TLS_
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 logging.captureWarnings(True)
 mac = ""#str(get_mac())
-nick=  "PAPY GOGO"
+nick=  "xy10zd"
 		
 try:
 	import cfscrape
@@ -171,13 +171,7 @@ if not kanall=="1":
 	kanall=2
 print("\033[H\033[J", end="")
 print(feyzo) 
-					  #	
-                                       #1639383136.1221867
-if int(time.time()) >= int(1704056400.0):
-		print(int(1704056400.0))
-		print(int(time.time()))
-		quit()
-#quit()
+
 
 Pro= input('[+] Do you want to use proxies? (Y/N): ')
 
@@ -326,10 +320,11 @@ def kategori(katelink):
 		veri=""
 		kate=""
 		veri=str(res.text)
+		print(veri)
 		for i in veri.split('category_name":"'):
 			kate=kate+" «❖» "+str((i.split('"')[0]).encode('utf-8').decode("unicode-escape")).replace('\/','/')
 	except:pass
-	#print(kate)
+	print(kate)
 	return kate
 
 
